@@ -4,18 +4,17 @@
   <metadata>
     <id>azure-cosmosdb-emulator</id>
     <version>1.0.0</version>
-    <packageSourceUrl>https://github.com/ryancrawcour/chocolatey-packages/azure-cosmosdb-emulator/</packageSourceUrl>
-    <owners>Ryan CrawCour</owners>
-
     <title>Azure Cosmos DB Emulator</title>
     <authors>Microsoft</authors>
+    <owners>Ryan CrawCour</owners>
+    <description>The Azure Cosmos DB Emulator provides a local environment that emulates the Azure Cosmos DB service for development purposes. Using the Emulator, you can develop and test your application locally, without creating an Azure subscription or incurring any costs. When you're satisfied with how your application is working in the Emulator, you can switch to using an Azure Cosmos DB account in the cloud. The Emulator is installed by default to the C:\Program Files\Azure Cosmos DB Emulator\ directory.</description>
+    <summary>This package installs the Azure Cosmos DB Emulator locally.</summary>
+    <tags>azure cosmosdb</tags>
+    <packageSourceUrl>https://github.com/ryancrawcour/chocolatey-packages/azure-cosmosdb-emulator/</packageSourceUrl> 
+    <docsUrl>https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator</docsUrl>
     <projectUrl>https://azure.microsoft.com//services/cosmos-db/</projectUrl>
     <iconUrl>http://cdn.rawgit.com/ryancrawcour/chocolatey-packages/azure-cosmosdb-emulator/icon.png</iconUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>-->
-    <tags>testpackage SPACE_SEPARATED</tags>
-    <summary>This package installs the Azure Cosmos DB Emulator locally.</summary>
-    <description>The Azure Cosmos DB Emulator provides a local environment that emulates the Azure Cosmos DB service for development purposes. Using the Emulator, you can develop and test your application locally, without creating an Azure subscription or incurring any costs. When you're satisfied with how your application is working in the Emulator, you can switch to using an Azure Cosmos DB account in the cloud. The Emulator is installed by default to the C:\Program Files\Azure Cosmos DB Emulator\ directory.
-    <docsUrl>https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator</docsUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
