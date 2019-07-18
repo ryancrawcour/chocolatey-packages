@@ -14,6 +14,7 @@
     <docsUrl>https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator</docsUrl>
     <projectUrl>https://azure.microsoft.com//services/cosmos-db/</projectUrl>
     <iconUrl>http://cdn.rawgit.com/ryancrawcour/chocolatey-packages/azure-cosmosdb-emulator/icon.png</iconUrl>
+    <licenseUrl>https://github.com/ryancrawcour/chocolatey-packages/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
   <files>
