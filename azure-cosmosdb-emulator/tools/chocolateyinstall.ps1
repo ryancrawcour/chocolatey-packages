@@ -19,3 +19,6 @@ $packageArgs = @{
 if(! (test-path "${Env:ProgramFiles}\Azure Cosmos DB Emulator\Microsoft.Azure.Cosmos.Emulator.exe")){
   Install-ChocolateyPackage @packageArgs
 }
+else{
+  throw “Cosmos DB Emulator already installed. Nothing to do.”
+}
